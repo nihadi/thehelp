@@ -1,0 +1,177 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Homepage</title>
+<style type="text/css">
+body {
+	background: url(back.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+a { text-decoration: none; }
+h1 { font-size: 1.5em;
+color:#ffffff;
+font-family: "Calibri" }
+h1, p {
+margin-bottom: 10px;
+}
+strong {
+font-weight: bold;
+}
+.uppercase { text-transform: uppercase; }
+.navbar
+
+{
+	list-style-type;
+    margin: 0px;
+   color: white;
+    padding: 1px;
+    height:50px;
+    font-weight:bold;
+    font-family: "Calibri";
+    font-size: 20px;
+
+}
+.navbar li
+{
+
+	display: inline;
+  color:white;
+	
+}
+
+.navbar a:link 
+{
+    
+    color: white;
+    text-decoration: none;
+    padding: 18px;
+}
+.navbar a:visited
+{
+  color:white;
+}
+.navbar a:hover
+{
+	color:black;
+	background-color:white;
+	text-decoration: none;
+}
+.navbar ul
+{
+	margin-left: 0px;
+}
+
+
+
+
+/* ---------- LOGIN ---------- */
+#login {
+margin: 100px ;
+width: 250px;
+height:400px;
+position: fixed;
+right:00;
+top:0;
+;
+}
+form fieldset input[type="text"], input[type="password"] {
+background-color: #e5e5e5;
+border: none;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+color: #5a5656;
+font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+font-size: 14px;
+height: 50px;
+outline: none;
+padding: 0px 10px;
+width: 280px;
+-webkit-appearance:none;
+}
+
+form fieldset a{
+background-color: #008dde;
+border: none;
+border-radius: 5px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+color: #f4f4f4;
+cursor: pointer;
+font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+height: 22px;
+text-transform: uppercase;
+width: 300x;
+font-size:16px;
+-webkit-appearance:none;
+}
+form fieldset a{
+
+background-color: #008dde;
+border: none;
+border-radius: 5px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+color: #f4f4f4;
+cursor: pointer;
+font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+height: 50px;
+text-transform: uppercase;
+width: 300x;
+-webkit-appearance:none;
+padding:2px 6px 3px;
+}
+
+
+.desc
+{
+border:white transparent;
+margin: 80px ;
+width: 800px;
+height:200px;
+color:#ffffff;
+position: fixed;
+left:00;
+top:60;
+font-size:26px;
+font-family:"Lucida Calligraphy";
+
+}
+
+
+</style>
+</head>
+<body>
+<div class="navbar">
+  <ul>
+  <li><a href="signup.html">Sign Up</a></li>
+  <li><a href="contactus.html">Contact Us</a></li>
+  
+  <li style="float:right"><a href="help.html">Help</a></li>
+  <li style="float:right"><a class="active" href="aboutus.html">About Us</a></li>
+  </ul>
+  </div>
+<div id="login">
+<h1><strong>Welcome.</strong> Please login to your account.</h1>
+
+<form action="javascript:void(0);" method="get">
+<fieldset>
+<p><input type="text" required value="Username" onBlur="if(this.value=='')this.value='Username'" onFocus="if(this.value=='Username')this.value='' "></p>
+<p><input type="password" required value="Password" onBlur="if(this.value=='')this.value='Password'" onFocus="if(this.value=='Password')this.value='' "></p>
+<p><a href="proj.html">Donate</a>
+<a href="final.html">Receive</a>
+
+</p>
+
+
+</fieldset>
+</form>
+</div> <!-- end login -->
+<div class="desc"> 
+<p>"When we give cheerfully and Accept  gratefully,
+    <br>Everyone is blessed."<br /></p>
+</body>
+</html>

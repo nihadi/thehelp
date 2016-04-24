@@ -1,0 +1,114 @@
+body 
+{
+ 
+  background: url(garage.jpg)no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+  font-family: "calibri";
+
+}
+
+
+
+
+/*navbar*/
+
+.navbar
+{
+	list-style-type: none;
+    margin: 0px;
+    /*background-color: #b3b3b3;*/
+    /*opacity:0.4;*/
+    padding: 1px;
+    font-family: "Calibri";
+    font-weight: bold; 
+font-size:20px;	
+
+}
+.navbar li
+{
+
+	display: inline;
+	
+}
+
+.navbar a:link 
+{
+    
+    color: white;
+    text-decoration: none;
+    padding: 18px;
+}
+.navbar a:hover
+{
+	color: black;
+	background-color: white;
+	text-decoration: none;
+}
+.navbar ul
+{
+	margin-left: 0px;
+}
+/*prodbox*/
+.cprod
+{
+	width: 80%;
+	background-color: #b3b3b3;
+	min-height: 220px;
+	opacity: 0.8;
+
+}
+.navbar a:visited
+{
+  color:white;
+}
+
+.cprod:hover
+{
+color:black;
+	width: 80%;
+	background-color: #b3b3b3;
+	min-height: 220px;
+
+}
+.box
+{
+	width: 15%;
+	height: 150px;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 20px;
+    margin-bottom: 10px;
+
+}
+.dona
+{
+	width: 80%;
+	background-color: #b3b3b3;
+	min-height: 220px;
+	opacity: 0.8;
+	
+}
+.text
+{
+	margin-top: 10px;
+}
+
+/*button*/
+
+.cprod button 
+{
+    background-color: white; /* Green */
+    border: none;
+    float: right;
+    margin-right: 28px;
+    color: black;
+    padding: 18px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
